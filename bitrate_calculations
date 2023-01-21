@@ -1,0 +1,15 @@
+# Calculate data time transfer
+###################################################################
+
+def transfer_time(speed, data):
+    """Returns the number of feet in the given number of miles."""
+
+    return data * 1024 / speed
+
+def test(speed, data):
+    print
+    "Your file will be downloaded after " + str(transfer_time(speed, data)) + " seconds"
+
+test(7, 134)
+
+###################################################################
